@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al web - Tworzenie Stron Internetowych</title>
+    
+   
+    <link rel="icon" type="image/png"  href="https://cdn.discordapp.com/avatars/1149323851939971072/f51fa4d8c35b2b5df164140a88b48bc8.png">
+   
+    
+    <meta name="description" content="Profesjonalne tworzenie stron internetowych z wykorzystaniem najnowszych technologii. Responsywne strony, szybkie aplikacje i nowoczesne rozwiązania.">
+    <meta name="keywords" content="tworzenie stron internetowych, strony www, web development, responsywne strony">
+    
+   
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alweb.com/">
+    <meta property="og:title" content="Al web - Tworzenie Stron Internetowych">
+    <meta property="og:description" content="Profesjonalne tworzenie stron internetowych z wykorzystaniem najnowszych technologii.">
+    <meta property="og:image" content="images/og-image.png">
+    
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://alweb.com/">
+    <meta property="twitter:title" content="Al web - Tworzenie Stron Internetowych">
+    <meta property="twitter:description" content="Profesjonalne tworzenie stron internetowych z wykorzystaniem najnowszych technologii.">
+    <meta property="twitter:image" content="images/og-image.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <nav class="navbar">
+        <a href="#" class="logo">AI web</a>
+        
+        <div class="desktop-menu">
+            <a href="#home">Home</a>
+            <a href="#features">Dlaczego My</a>
+            <a href="#pricing">Cennik</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+        
+        <button id="menuToggle" class="menu-toggle" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu">
+        <a href="#home" onclick="closeMobileMenu()">Home</a>
+        <a href="#features" onclick="closeMobileMenu()">Dlaczego My</a>
+        <a href="#pricing" onclick="closeMobileMenu()">Cennik</a>
+        <a href="#contact" onclick="closeMobileMenu()">Kontakt</a>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>AI web<br>Tworzenie Stron<br>Internetowych</h1>
+            <div class="hero-features">
+                <div class="feature-item">
+                    <i class="fas fa-rocket"></i>
+                    <div class="animated-text">
+                        <span class="typing-text" data-text='["Responsywne strony", "Szybkie aplikacje", "Nowoczesne rozwiązania", "Przyjazne interfejsy"]'></span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button primary">Rozpocznij Projekt</a>
+                <a href="#pricing" class="cta-button secondary">Panel klienta</a>
+            </div>
+            <div class="hero-image">
+                <div class="isometric-grid">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item glow"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item glow"></div>
+                    <div class="grid-item"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Dlaczego My?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Szybkość</h3>
+                    <p>Optymalizacja pod kątem szybkości ładowania, zapewniająca błyskawiczne działanie Twojej strony.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Bezpieczeństwo</h3>
+                    <p>Zaawansowane zabezpieczenia i ochrona danych, gwarantujące bezpieczeństwo Twojej witryny.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsywność</h3>
+                    <p>Doskonałe wyświetlanie na wszystkich urządzeniach, od smartfonów po duże ekrany.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>Nowoczesny i atrakcyjny wygląd, który przyciąga uwagę i zachwyca użytkowników.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <div class="container">
+            <h2>Jak Pracujemy?</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Konsultacja</h3>
+                    <p>Omawiamy Twoje potrzeby i oczekiwania, analizujemy wymagania i planujemy najlepsze rozwiązania dla Twojego projektu.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Projektowanie</h3>
+                    <p>Tworzymy unikalny design strony, dbając o każdy detal i zgodność z najnowszymi trendami w projektowaniu interfejsów.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Programowanie</h3>
+                    <p>Implementujemy wszystkie funkcjonalności, wykorzystując najnowsze technologie i najlepsze praktyki programistyczne.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Testowanie</h3>
+                    <p>Sprawdzamy działanie i optymalizujemy wydajność, zapewniając najwyższą jakość i niezawodność Twojej strony.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Wycena Projektu</h2>
+            <div class="pricing-info">
+                <p>Każdy projekt jest wyjątkowy, dlatego nasze ceny są dostosowywane indywidualnie. Wpływają na nie następujące czynniki:</p>
+                <ul class="pricing-factors">
+                    <li>
+                        <i class="fas fa-layer-group"></i>
+                        <span>Złożoność projektu i liczba podstron</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-paint-brush"></i>
+                        <span>Stopień personalizacji designu</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-cogs"></i>
+                        <span>Wymagane funkcjonalności i integracje</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span>Czas realizacji projektu</span>
+                    </li>
+                </ul>
+                <div class="pricing-cta">
+                    <p>Skontaktuj się z nami, aby otrzymać bezpłatną wycenę Twojego projektu</p>
+                    <a href="#contact" class="cta-button primary">Otrzymaj Wycenę</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>alwebs00@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telefon</h3>
+                        <p>Soon</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Adres</h3>
+                        <p>Warszawa, Polska</p>
+                    </div>
+                </div>
+                <div class="contact-quote">
+                    <h3>Otrzymaj Dokładną Wycenę</h3>
+                    <p>Interesuje Cię profesjonalna strona internetowa? Skontaktuj się z nami mailowo pod adresem <strong>alwebs00@gmail.com</strong>, aby otrzymać szczegółową wycenę Twojego projektu.</p>
+                    <p>W odpowiedzi otrzymasz:</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Szczegółową analizę Twoich potrzeb</li>
+                        <li><i class="fas fa-check"></i> Indywidualną wycenę projektu</li>
+                        <li><i class="fas fa-check"></i> Propozycję harmonogramu realizacji</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>O Nas</h4>
+                    <p>Profesjonalne tworzenie stron internetowych z pasją i zaangażowaniem.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>Email: alwebs00@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI web. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('menuToggle').classList.toggle('open');
+            document.getElementById('mobileMenu').classList.toggle('open');
+            document.body.style.overflow = document.getElementById('mobileMenu').classList.contains('open') ? 'hidden' : '';
+        }
+        
+        function closeMobileMenu() {
+            document.getElementById('menuToggle').classList.remove('open');
+            document.getElementById('mobileMenu').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+    </script>
+</body>
+</html> 
